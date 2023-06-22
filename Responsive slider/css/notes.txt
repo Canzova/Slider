@@ -1,0 +1,34 @@
+breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    520: {
+      centeredSlides: false,
+      slidesPerView: 2,
+    },
+    950: {
+      slidesPerView: 3,
+    },
+  },
+
+
+
+The code you provided is defining breakpoints for a responsive slider or carousel component. Breakpoints allow you to define different settings for the slider based on the width of the viewport or device screen.
+
+Here is an explanation of the code:
+
+Breakpoint 0 (viewport width up to 520px):
+
+slidesPerView: 1
+This means that at this breakpoint, only one slide will be visible at a time.
+Breakpoint 520 (viewport width between 521px and 950px):
+
+centeredSlides: false
+This setting specifies that the slides should not be centered horizontally within the slider container.
+slidesPerView: 2
+At this breakpoint, two slides will be visible simultaneously.
+Breakpoint 950 (viewport width greater than 950px):
+
+slidesPerView: 3
+Here, the number of slides visible at a time increases to three.
+In summary, the code defines the behavior of a slider component for different screen sizes or viewport widths. It specifies that the slider should display one slide at a time for viewport widths up to 520px, two slides at a time for widths between 521px and 950px, and three slides at a time for widths greater than 950px. Additionally, it disables centering of slides for viewport widths between 521px and 950px.
